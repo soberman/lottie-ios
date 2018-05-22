@@ -1,0 +1,2 @@
+#include "iOS/iOS-Application.xcconfig"
+#include "Jam-Common.xcconfig"

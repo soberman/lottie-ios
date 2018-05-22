@@ -18,7 +18,9 @@
 		62E4702B1FFEB817000C97B5 /* Lottie_Example_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4702A1FFEB817000C97B5 /* Lottie_Example_SwiftUITests.swift */; };
 		62E470391FFED448000C97B5 /* Boat_Loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 62E470381FFED448000C97B5 /* Boat_Loader.json */; };
 		6E17023C2780630C0A257884 /* Pods_Lottie_Example_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF2B492C19B7F0F7B82952F /* Pods_Lottie_Example_Swift.framework */; };
-		AA92957D20B4745E00C04B85 /* xcconfigs in Resources */ = {isa = PBXBuildFile; fileRef = AA92957C20B4745E00C04B85 /* xcconfigs */; };
+		AAB7AB2420B479C100FD3721 /* Jam-Common-App.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AAB7AB2120B479C000FD3721 /* Jam-Common-App.xcconfig */; };
+		AAB7AB2520B479C100FD3721 /* Jam-Common-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AAB7AB2220B479C000FD3721 /* Jam-Common-Framework.xcconfig */; };
+		AAB7AB2620B479C100FD3721 /* Jam-Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AAB7AB2320B479C100FD3721 /* Jam-Common.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +62,9 @@
 		62E470381FFED448000C97B5 /* Boat_Loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Boat_Loader.json; sourceTree = "<group>"; };
 		6EE0DF2FA4ADD0D205053730 /* Pods-Lottie-Example-SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example-SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example-SwiftUITests/Pods-Lottie-Example-SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9AF2B492C19B7F0F7B82952F /* Pods_Lottie_Example_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie_Example_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA92957C20B4745E00C04B85 /* xcconfigs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = xcconfigs; sourceTree = "<group>"; };
+		AAB7AB2120B479C000FD3721 /* Jam-Common-App.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Jam-Common-App.xcconfig"; path = "xcconfigs/Jam-Common-App.xcconfig"; sourceTree = "<group>"; };
+		AAB7AB2220B479C000FD3721 /* Jam-Common-Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Jam-Common-Framework.xcconfig"; path = "xcconfigs/Jam-Common-Framework.xcconfig"; sourceTree = "<group>"; };
+		AAB7AB2320B479C100FD3721 /* Jam-Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Jam-Common.xcconfig"; path = "xcconfigs/Jam-Common.xcconfig"; sourceTree = "<group>"; };
 		BC7D0747611BEF491A6A96A1 /* Pods-Lottie-Example-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example-Swift/Pods-Lottie-Example-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		E7CD1DA18E988165DD61D336 /* Pods-Lottie-Example-SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example-SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example-SwiftTests/Pods-Lottie-Example-SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,7 +145,6 @@
 		62E470091FFEB817000C97B5 /* Lottie-Example-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				AA92957C20B4745E00C04B85 /* xcconfigs */,
 				62E4700A1FFEB817000C97B5 /* AppDelegate.swift */,
 				62E4700C1FFEB817000C97B5 /* ViewController.swift */,
 				62E4700E1FFEB817000C97B5 /* Main.storyboard */,
@@ -149,6 +152,9 @@
 				62E470381FFED448000C97B5 /* Boat_Loader.json */,
 				62E470131FFEB817000C97B5 /* LaunchScreen.storyboard */,
 				62E470161FFEB817000C97B5 /* Info.plist */,
+				AAB7AB2120B479C000FD3721 /* Jam-Common-App.xcconfig */,
+				AAB7AB2220B479C000FD3721 /* Jam-Common-Framework.xcconfig */,
+				AAB7AB2320B479C100FD3721 /* Jam-Common.xcconfig */,
 			);
 			path = "Lottie-Example-Swift";
 			sourceTree = "<group>";
@@ -282,9 +288,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB7AB2620B479C100FD3721 /* Jam-Common.xcconfig in Resources */,
 				62E470391FFED448000C97B5 /* Boat_Loader.json in Resources */,
 				62E470151FFEB817000C97B5 /* LaunchScreen.storyboard in Resources */,
-				AA92957D20B4745E00C04B85 /* xcconfigs in Resources */,
+				AAB7AB2420B479C100FD3721 /* Jam-Common-App.xcconfig in Resources */,
+				AAB7AB2520B479C100FD3721 /* Jam-Common-Framework.xcconfig in Resources */,
 				62E470121FFEB817000C97B5 /* Assets.xcassets in Resources */,
 				62E470101FFEB817000C97B5 /* Main.storyboard in Resources */,
 			);
@@ -444,6 +452,7 @@
 /* Begin XCBuildConfiguration section */
 		62E4702D1FFEB817000C97B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB7AB2120B479C000FD3721 /* Jam-Common-App.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -501,6 +510,7 @@
 		};
 		62E4702E1FFEB817000C97B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB7AB2120B479C000FD3721 /* Jam-Common-App.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
