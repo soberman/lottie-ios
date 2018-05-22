@@ -18,6 +18,7 @@
 		62E4702B1FFEB817000C97B5 /* Lottie_Example_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4702A1FFEB817000C97B5 /* Lottie_Example_SwiftUITests.swift */; };
 		62E470391FFED448000C97B5 /* Boat_Loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 62E470381FFED448000C97B5 /* Boat_Loader.json */; };
 		6E17023C2780630C0A257884 /* Pods_Lottie_Example_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF2B492C19B7F0F7B82952F /* Pods_Lottie_Example_Swift.framework */; };
+		AA92957D20B4745E00C04B85 /* xcconfigs in Resources */ = {isa = PBXBuildFile; fileRef = AA92957C20B4745E00C04B85 /* xcconfigs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		62E470381FFED448000C97B5 /* Boat_Loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Boat_Loader.json; sourceTree = "<group>"; };
 		6EE0DF2FA4ADD0D205053730 /* Pods-Lottie-Example-SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example-SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example-SwiftUITests/Pods-Lottie-Example-SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9AF2B492C19B7F0F7B82952F /* Pods_Lottie_Example_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie_Example_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA92957C20B4745E00C04B85 /* xcconfigs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = xcconfigs; sourceTree = "<group>"; };
 		BC7D0747611BEF491A6A96A1 /* Pods-Lottie-Example-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example-Swift/Pods-Lottie-Example-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		E7CD1DA18E988165DD61D336 /* Pods-Lottie-Example-SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example-SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example-SwiftTests/Pods-Lottie-Example-SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +141,7 @@
 		62E470091FFEB817000C97B5 /* Lottie-Example-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				AA92957C20B4745E00C04B85 /* xcconfigs */,
 				62E4700A1FFEB817000C97B5 /* AppDelegate.swift */,
 				62E4700C1FFEB817000C97B5 /* ViewController.swift */,
 				62E4700E1FFEB817000C97B5 /* Main.storyboard */,
@@ -281,6 +284,7 @@
 			files = (
 				62E470391FFED448000C97B5 /* Boat_Loader.json in Resources */,
 				62E470151FFEB817000C97B5 /* LaunchScreen.storyboard in Resources */,
+				AA92957D20B4745E00C04B85 /* xcconfigs in Resources */,
 				62E470121FFEB817000C97B5 /* Assets.xcassets in Resources */,
 				62E470101FFEB817000C97B5 /* Main.storyboard in Resources */,
 			);
