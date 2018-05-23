@@ -1,1 +1,2 @@
 // Some common preferenes you might have.
+IPHONEOS_DEPLOYMENT_TARGET = 11.0
