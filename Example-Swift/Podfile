@@ -2,9 +2,9 @@ use_frameworks!
 
 workspace 'Lottie-Example-Swift'
 
-# def shared_dependency_Lottie
-# 	pod 'lottie-ios', :path => '../'
-# end
+def shared_dependency_Lottie
+	pod 'lottie-ios', :path => '../'
+end
 
 target 'Animation' do 
 	project 'Animation/Animation.xcodeproj'
