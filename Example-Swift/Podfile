@@ -1,8 +1,25 @@
-target 'Lottie-Example-Swift' do
-  use_frameworks!
+use_frameworks!
 
-  pod 'lottie-ios', :path => '../'
-  
+workspace 'Lottie-Example-Swift'
+
+# def shared_dependency_Lottie
+# 	pod 'lottie-ios', :path => '../'
+# end
+
+target 'Animation' do 
+	project 'Animation/Animation.xcodeproj'
+
+	shared_dependency_Lottie
+
+	target 'AnimationTests' do
+		inherit! :search_paths
+	end
+end
+
+target 'Lottie-Example-Swift' do
+
+	shared_dependency_Lottie
+
   target 'Lottie-Example-SwiftTests' do
     inherit! :search_paths
   end

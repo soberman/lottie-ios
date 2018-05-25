@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274B247920B814F600404890 /* Animation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274B247820B814F600404890 /* Animation.framework */; };
+		274B247A20B814F600404890 /* Animation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 274B247820B814F600404890 /* Animation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2F221A269BFB035118E5540F /* Pods_Lottie_Example_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4918778B6A64403F2EE0C7B6 /* Pods_Lottie_Example_SwiftUITests.framework */; };
 		5562673381B06E2A7C53D00E /* Pods_Lottie_Example_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4342E1787B079213282322 /* Pods_Lottie_Example_SwiftTests.framework */; };
 		62E4700B1FFEB817000C97B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4700A1FFEB817000C97B5 /* AppDelegate.swift */; };
@@ -16,7 +18,6 @@
 		62E470151FFEB817000C97B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E470131FFEB817000C97B5 /* LaunchScreen.storyboard */; };
 		62E470201FFEB817000C97B5 /* Lottie_Example_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4701F1FFEB817000C97B5 /* Lottie_Example_SwiftTests.swift */; };
 		62E4702B1FFEB817000C97B5 /* Lottie_Example_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4702A1FFEB817000C97B5 /* Lottie_Example_SwiftUITests.swift */; };
-		62E470391FFED448000C97B5 /* Boat_Loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 62E470381FFED448000C97B5 /* Boat_Loader.json */; };
 		6E17023C2780630C0A257884 /* Pods_Lottie_Example_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF2B492C19B7F0F7B82952F /* Pods_Lottie_Example_Swift.framework */; };
 		AAB7AB2420B479C100FD3721 /* Jam-Common-App.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AAB7AB2120B479C000FD3721 /* Jam-Common-App.xcconfig */; };
 		AAB7AB2520B479C100FD3721 /* Jam-Common-Framework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AAB7AB2220B479C000FD3721 /* Jam-Common-Framework.xcconfig */; };
@@ -40,9 +41,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		274B247B20B814F600404890 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				274B247A20B814F600404890 /* Animation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1A4342E1787B079213282322 /* Pods_Lottie_Example_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie_Example_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DA0C04546E7992E527B7A4 /* Pods-Lottie-Example-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example-Swift/Pods-Lottie-Example-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		274B247820B814F600404890 /* Animation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Animation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		460DDCDD3AFBBA2F71F388CA /* Pods-Lottie-Example-SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example-SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example-SwiftTests/Pods-Lottie-Example-SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		4918778B6A64403F2EE0C7B6 /* Pods_Lottie_Example_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie_Example_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB694D6860A4ED4A558B875 /* Pods-Lottie-Example-SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example-SwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example-SwiftUITests/Pods-Lottie-Example-SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,7 +75,6 @@
 		62E470261FFEB817000C97B5 /* Lottie-Example-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lottie-Example-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E4702A1FFEB817000C97B5 /* Lottie_Example_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottie_Example_SwiftUITests.swift; sourceTree = "<group>"; };
 		62E4702C1FFEB817000C97B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62E470381FFED448000C97B5 /* Boat_Loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Boat_Loader.json; sourceTree = "<group>"; };
 		6EE0DF2FA4ADD0D205053730 /* Pods-Lottie-Example-SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example-SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example-SwiftUITests/Pods-Lottie-Example-SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9AF2B492C19B7F0F7B82952F /* Pods_Lottie_Example_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie_Example_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB7AB2120B479C000FD3721 /* Jam-Common-App.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Jam-Common-App.xcconfig"; path = "xcconfigs/Jam-Common-App.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E17023C2780630C0A257884 /* Pods_Lottie_Example_Swift.framework in Frameworks */,
+				274B247920B814F600404890 /* Animation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +139,7 @@
 		62E46FFE1FFEB817000C97B5 = {
 			isa = PBXGroup;
 			children = (
+				274B247820B814F600404890 /* Animation.framework */,
 				62E470091FFEB817000C97B5 /* Lottie-Example-Swift */,
 				62E4701E1FFEB817000C97B5 /* Lottie-Example-SwiftTests */,
 				62E470291FFEB817000C97B5 /* Lottie-Example-SwiftUITests */,
@@ -149,7 +166,6 @@
 				62E4700C1FFEB817000C97B5 /* ViewController.swift */,
 				62E4700E1FFEB817000C97B5 /* Main.storyboard */,
 				62E470111FFEB817000C97B5 /* Assets.xcassets */,
-				62E470381FFED448000C97B5 /* Boat_Loader.json */,
 				62E470131FFEB817000C97B5 /* LaunchScreen.storyboard */,
 				62E470161FFEB817000C97B5 /* Info.plist */,
 				AAB7AB2120B479C000FD3721 /* Jam-Common-App.xcconfig */,
@@ -188,7 +204,8 @@
 				62E470031FFEB817000C97B5 /* Sources */,
 				62E470041FFEB817000C97B5 /* Frameworks */,
 				62E470051FFEB817000C97B5 /* Resources */,
-				59170CEDFD10DC9C02A1814F /* [CP] Embed Pods Frameworks */,
+				274B247B20B814F600404890 /* Embed Frameworks */,
+				11A337E5384361A0193DF8B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,7 +306,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB7AB2620B479C100FD3721 /* Jam-Common.xcconfig in Resources */,
-				62E470391FFED448000C97B5 /* Boat_Loader.json in Resources */,
 				62E470151FFEB817000C97B5 /* LaunchScreen.storyboard in Resources */,
 				AAB7AB2420B479C100FD3721 /* Jam-Common-App.xcconfig in Resources */,
 				AAB7AB2520B479C100FD3721 /* Jam-Common-Framework.xcconfig in Resources */,
@@ -315,6 +331,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		11A337E5384361A0193DF8B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lottie-Example-Swift/Pods-Lottie-Example-Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lottie-Example-Swift/Pods-Lottie-Example-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3EFD30B5950856A4643439BC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,24 +383,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		59170CEDFD10DC9C02A1814F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Lottie-Example-Swift/Pods-Lottie-Example-Swift-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lottie-Example-Swift/Pods-Lottie-Example-Swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CE05A5260795CAB5579C20F7 /* [CP] Check Pods Manifest.lock */ = {
@@ -564,6 +580,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Lottie-Example-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "d.Lottie-Example-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -579,6 +596,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Lottie-Example-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "d.Lottie-Example-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
